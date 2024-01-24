@@ -1,0 +1,433 @@
+@media all and (max-width: 1400px) {
+    #profile {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        height: 83vh;
+        margin-bottom: -1rem;
+    }
+    .logo {
+        font-size: 2.1rem;
+    }
+    
+    .logo:hover {
+         cursor: default;
+    }
+    
+    .experience-details-container {
+        height: 28rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+    .experience-sub-title {
+        text-align: center;
+    }
+    .arrow {
+        display: none;
+    }
+    .section-container {
+        display: flex;
+        margin-top: 0.5rem;
+        margin-bottom: 8rem;
+    }
+    section,
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+   
+    .about-containers {
+        flex-wrap: wrap;
+    }
+   
+    .details-container {
+        padding: 1.5rem;
+        flex: 1;
+        font-size: 0.8rem;
+        background: white;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        border-color: rgb(163, 163, 163);
+        text-align: left;
+    }
+    
+.nav-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.Contact-info-upper-container {
+    margin-bottom: 5.3rem;
+}
+
+.Contactcontainers {
+    margin-bottom: 4rem;
+}
+.Contact-inputs {
+    width: 230px;
+    height: 33px;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.6rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.Contactcontainers textarea {
+    height: 140px;
+    font-weight: 500;
+    color: #666;
+    padding-top: 15px;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.Contact-info-container p {
+    font-size: 0.7rem;
+}
+.section__pic-container {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+    
+.section__text p {
+    font-weight: 600;
+}
+    
+.section__text__p1 {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.contact-icon {
+    cursor: default;
+    height: 1.5rem;
+}
+    
+.section__text__p2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+    
+.title {
+    font-size: 2rem;
+    text-align: center;
+}
+footer {
+    margin-top: -6rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 500;
+    transition: all 300ms ease;
+    padding: 0.7rem;
+    width: 6.8rem;
+    border-radius: 2rem;
+}
+}
+
+/* ipad, tablet */
+
+@media all and (max-width: 1200px) {
+    #profile {
+        display: block;
+        justify-content: center;
+        gap: 5rem;
+        height: 73vh;
+        margin-bottom: -1rem;
+        margin-top: 8rem;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .about-containers,
+    .Contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+    .section-container {
+        height: fit-content;
+        display: block;
+        margin-top: -1rem;
+    }
+    .about-containers {
+        margin-bottom: 20rem;
+    }
+    .arrow {
+        display: none;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto 2rem;
+    }
+    .section__text {
+        align-self: center;
+        text-align: center;
+    }
+    .section__text__p1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .section__text__p2 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .logo {
+        font-size: 2.2rem;
+    }
+    .details-container {
+        font-size: 1rem;
+    }
+    footer {
+        margin-top: -1.7rem;
+        margin-bottom: -3rem;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .nav-links {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: larger;
+    }
+    .Contactcontainers {
+        margin-bottom: -1rem;
+        margin-top: -5rem;
+    }
+    .Contact-inputs {
+        width: 350px;
+        height: 40px;
+        padding-left: 25px;
+        font-weight: 500;
+        color: #666;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.7rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+    }
+    .Contact-info-container p {
+        font-size: medium;
+    }
+    .experience-details-container {
+        margin-top: 20rem;
+        margin-bottom: 18rem;
+    }
+    .about-details-container {
+        margin-bottom: -18rem;
+    }
+    #contact {
+        margin-top: -20rem;
+    }
+    #Skills {
+        margin-top: -3rem;
+    }
+    .icon {
+        cursor: pointer;
+        height: 3rem;
+    }
+    .btn {
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1.3rem;
+        width: 11rem;
+        border-radius: 2rem;
+        font-size: medium;
+    }
+    .project-title {
+        font-size: x-large;
+    }
+}
+
+/* */
+@media all and (max-width: 600px) {
+    #profile {
+        display: block;
+        justify-content: center;
+        gap: 5rem;
+        height: 83vh;
+        margin-top: 6rem;
+    }
+    .logo {
+        font-size: x-large;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 2rem;
+        margin-top: -5rem;
+    }
+    .section__text {
+        align-self: center;
+        text-align: center;
+    }
+    .contact-icon {
+        cursor: pointer;
+        height: 1.5rem;
+    }
+    .email-icon {
+        height: 1.8rem;
+    }
+    .btn {
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 8rem;
+        font-size: smaller;
+        border-radius: 2rem;
+    }
+    .article-container {
+        text-align: initial;
+        font-weight: 600;
+        font-size: medium;
+        text-align: left;
+    }
+    
+    article {
+        display: flex;
+        width: 10rem;
+        gap: 0.5rem;
+    }
+    
+    article .icon {
+        cursor: default;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+    footer nav {
+        height: fit-content;
+        font-size: x-large;
+    }
+    .Contactcontainers,
+    .Contact-inputs,
+    .Contactcontainers textarea,
+    .about-containers,
+    .Contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+    .experience-details-container {
+        margin-top: 14rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    #Skills {
+        margin-top: 45rem;
+    }
+    #projects {
+        margin-top: 31rem;
+    }
+    #contact {
+        margin-top: 31rem;
+    }
+    .section__text__p2 {
+        font-size: 1.3rem;
+    }
+    .about-containers {
+        margin-bottom: -30rem;
+    }
+    .section-container {
+        height: fit-content;
+        display: block;
+        margin-top: -1rem;
+    }
+    .Contactcontainers {
+        margin-top: 0.1rem;
+        margin-bottom: -3rem;
+    }
+    .nav-links {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+    .nav-links-container {
+        margin-top: -11rem;
+        margin-bottom: -3rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+        margin-bottom: -2rem;
+    }
+    .Contact-info-container p {
+        font-size: small;
+    }
+    .Contact-info-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 0.1rem;
+    }
+    .Contact-inputs {
+        width: 300px;
+        height: 40px;
+        padding-left: 25px;
+        font-weight: 500;
+        color: #666;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.7rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+    }
+    .Contact-info-upper-container {
+        justify-content: left;
+        border: none;
+        margin-top: 3rem;
+    }
+    .experience-sub-title {
+        text-align: center;
+        font-size: larger;
+    }
+    .icon {
+        height: 2.2rem;
+    }
+    
+}
